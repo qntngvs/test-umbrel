@@ -4,6 +4,7 @@ category: automation
 name: Home Assistant
 version: "Latest"
 tagline: Home automation that puts local control & privacy first
+icon: https://logo.clearbit.com/home-assistant.io
 description: >-
   Open source home automation that puts local control and privacy
   first. Powered by a worldwide community of tinkerers and DIY enthusiasts.
