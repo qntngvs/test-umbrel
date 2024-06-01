@@ -1,6 +1,10 @@
 version: "3.7"
 
 services:
+  app_proxy:
+    environment:
+      APP_HOST: qntngvs-homeassistant_server_1
+      APP_PORT: 8123
   server:
     image: homeassistant/home-assistant:latest@sha256:031d355a2e52e82fc33cd6854753fb19fc5d6a31af6f0f54c277d6f118ad993e
     network_mode: host
