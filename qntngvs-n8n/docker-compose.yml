@@ -18,5 +18,6 @@ services:
     environment:
       - PUID=1000
       - PGID=1000
+      - N8N_SECURE_COOKIE=false
       # Used to set the url for editor, REST API & webhooks
       - N8N_HOST=$DEVICE_DOMAIN_NAME
