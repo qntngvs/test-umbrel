@@ -3,7 +3,7 @@ version: "3.7"
 services:
   lancommander:
     image: lancommander/lancommander:latest
-    container-name: qntngvs-lancommander
+    container_name: qntngvs-lancommander
     environment:
       - PUID=1000
       - PGID=1000
