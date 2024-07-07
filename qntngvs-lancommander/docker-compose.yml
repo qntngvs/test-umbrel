@@ -2,7 +2,7 @@ version: "3.7"
 
 services:
   lancommander:
-    image: lancommander/lancommander:latest
+    image: lancommander/lancommander:latest@sha256:1ee2d595b10f7a5e6bfc3f6fb5bd5ac2464626f42a67f0b1e0b11fc4d951e9fa
     container_name: lancommander
     environment:
       - PUID=1000
