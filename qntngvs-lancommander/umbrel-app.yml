@@ -29,7 +29,7 @@ website: https://home-assistant.io
 dependencies: []
 repo: https://github.com/home-assistant/core
 support: https://community.home-assistant.io
-port: 8123 
+port: 1337 
 gallery:
   - 1.jpg
   - 2.jpg
